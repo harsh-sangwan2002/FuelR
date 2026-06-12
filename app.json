@@ -7,11 +7,6 @@
     "icon": "./assets/logo.png",
     "userInterfaceStyle": "dark",
     "scheme": "fuelr",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#0A000F"
-    },
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.harshsangwan.fuelr",
@@ -43,6 +38,15 @@
         {
           "photosPermission": "FuelR needs access to your photos to update your profile picture.",
           "cameraPermission": "FuelR needs access to your camera to take a profile picture."
+        }
+      ],
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#0A000F"
         }
       ]
     ],
