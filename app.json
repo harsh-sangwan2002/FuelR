@@ -19,7 +19,8 @@
       "infoPlist": {
         "NSCameraUsageDescription": "FuelR uses the camera to scan food for nutrition analysis.",
         "NSPhotoLibraryUsageDescription": "FuelR accesses your photos to analyze food images.",
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "LSRequiresIPhoneOS": true
       }
     },
     "android": {
@@ -27,7 +28,7 @@
         "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#0A000F"
       },
-      "package": "com.fuelr.app",
+      "package": "com.harshsangwan.fuelr",
       "predictiveBackGestureEnabled": false,
       "permissions": [
         "android.permission.RECORD_AUDIO"
