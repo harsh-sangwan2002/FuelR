@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "FuelR",
+    "slug": "FuelR",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "fuelr",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#0A000F"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.fuelr.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "FuelR uses the camera to scan food for nutrition analysis.",
+        "NSPhotoLibraryUsageDescription": "FuelR accesses your photos to analyze food images."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#0A000F"
+      },
+      "package": "com.fuelr.app",
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "FuelR needs access to your photos to update your profile picture.",
+          "cameraPermission": "FuelR needs access to your camera to take a profile picture."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1ee2c242-9f1c-443b-ad6f-25f5f440abf5"
+      }
+    }
+  }
+}
