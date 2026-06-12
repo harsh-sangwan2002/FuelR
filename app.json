@@ -14,11 +14,12 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.fuelr.app",
+      "bundleIdentifier": "com.harshsangwan.fuelr",
       "buildNumber": "1",
       "infoPlist": {
         "NSCameraUsageDescription": "FuelR uses the camera to scan food for nutrition analysis.",
-        "NSPhotoLibraryUsageDescription": "FuelR accesses your photos to analyze food images."
+        "NSPhotoLibraryUsageDescription": "FuelR accesses your photos to analyze food images.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
